@@ -12,7 +12,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	"github.com/cilium/cilium-cli/defaults"
-	"github.com/cilium/cilium-cli/internal/utils"
+	"github.com/cilium/cilium-cli/pkg/utils"
 	"github.com/cilium/cilium-cli/status"
 )
 

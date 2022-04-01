@@ -12,7 +12,7 @@ import (
 	"github.com/cilium/cilium-cli/connectivity/check"
 	"github.com/cilium/cilium-cli/connectivity/tests"
 	"github.com/cilium/cilium-cli/defaults"
-	"github.com/cilium/cilium-cli/internal/utils"
+	"github.com/cilium/cilium-cli/pkg/utils"
 )
 
 var (

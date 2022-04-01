@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 
 	"github.com/cilium/cilium-cli/defaults"
-	"github.com/cilium/cilium-cli/internal/certs"
-	"github.com/cilium/cilium-cli/internal/k8s"
-	"github.com/cilium/cilium-cli/internal/utils"
+	"github.com/cilium/cilium-cli/pkg/certs"
+	"github.com/cilium/cilium-cli/pkg/k8s"
+	"github.com/cilium/cilium-cli/pkg/utils"
 	"github.com/cilium/cilium-cli/status"
 )
 

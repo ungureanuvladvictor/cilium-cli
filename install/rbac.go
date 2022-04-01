@@ -9,7 +9,7 @@ import (
 	rbacv1 "k8s.io/api/rbac/v1"
 
 	"github.com/cilium/cilium-cli/defaults"
-	"github.com/cilium/cilium-cli/internal/utils"
+	"github.com/cilium/cilium-cli/pkg/utils"
 )
 
 func (k *K8sInstaller) NewServiceAccount(name string) *corev1.ServiceAccount {
